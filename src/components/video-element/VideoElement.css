@@ -1,0 +1,20 @@
+.mainVideoBackground{
+    background-color: #272A2D;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mainVideoBackground p{
+    color: white;
+    font-family: 'Playfair display', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.videoElement{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}

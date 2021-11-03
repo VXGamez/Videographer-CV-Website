@@ -1,0 +1,13 @@
+
+#showcase{
+    background-color: #61dafb;
+    background-size:cover;
+    background-position:center;
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+}

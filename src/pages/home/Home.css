@@ -1,0 +1,69 @@
+.navBar{
+    height: 90px;
+    background-color: #282c34;
+}
+.mainHeader{
+    height: 600px;
+    background-color: red;
+}
+
+.cuerpo{
+    background-color: #272A2D;
+}
+
+
+.videoGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row dense;
+}
+
+.grid2x2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 600px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.grid2x1{
+    height: 600px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid2x1LargeLeft{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    height: 600px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.grid2x1LargeRight{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    height: 600px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.grid3x1{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 600px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.grid1x2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
