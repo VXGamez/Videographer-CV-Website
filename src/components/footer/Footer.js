@@ -8,7 +8,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <p>Texte</p>
+                <p>El que sigui que vulguis posar de footer, normalment info de contacte</p>
             </div>
         );
     }

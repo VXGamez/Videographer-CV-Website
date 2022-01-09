@@ -1,0 +1,41 @@
+.menuBar{
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #212226;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.urls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    width: 70%;
+}
+
+.urls a{
+    font-size: 1em;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration: none !important;
+    transition: 1s;
+    opacity: 1;
+}
+
+.urls a:hover{
+    opacity: .6;
+}
+
+.menuBar p{
+    font-size: 2em;
+    color: aliceblue;
+    font-weight: normal;
+    margin: 0;
+}
+
+
